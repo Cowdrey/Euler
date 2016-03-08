@@ -38,8 +38,8 @@ int main()
         for(int j = 0; j < numDigits; j++)
         {
             product*=vals[j+i];
-            max = max<product?product:max;
         }
+        max = max<product?product:max;
     }
 
     std::cout<<"max: " << max<< "\n";
